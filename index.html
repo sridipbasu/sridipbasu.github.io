@@ -1,32 +1,127 @@
+```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>My Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sridip Basu | AI & ML Portfolio</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 <style>
 body{
-    font-family:Arial;
-    text-align:center;
-    margin-top:100px;
+margin:0;
+font-family:Arial,sans-serif;
+background:#0f172a;
+color:white;
 }
-img{
-    width:150px;
-    border-radius:50%;
+section{padding:50px 10%;}
+.hero{
+text-align:center;
+padding:80px;
+background:linear-gradient(135deg,#1e293b,#0f172a);
 }
+.card{
+background:rgba(255,255,255,0.08);
+padding:20px;
+border-radius:20px;
+margin:15px 0;
+backdrop-filter:blur(10px);
+}
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+}
+.logo-row{
+display:flex;
+flex-wrap:wrap;
+gap:25px;
+justify-content:center;
+align-items:center;
+}
+.logo-row img{
+height:55px;
+background:white;
+padding:8px;
+border-radius:12px;
+}
+a{color:#60a5fa;text-decoration:none;}
+h1{font-size:3rem}
 </style>
 </head>
-
 <body>
-<img src="profile.jpg">
-<h1>Hello, I'm Sridip</h1>
-<p>MSc AI & ML Student</p>
 
-<h2>Projects</h2>
-<a href="https://github.com/yourusername/project1">
-Flood Prediction Project
-</a><br>
+<section class="hero">
+<h1>Sridip Basu</h1>
+<h3>M.Sc AI & ML | IIIT Lucknow</h3>
+<p>Building AI systems for climate intelligence, flood prediction and smart agriculture.</p>
 
-<a href="https://github.com/yourusername/project2">
-Growsense
-</a>
+<p>
+<a href="https://github.com/sridipbasu"><i class="fab fa-github"></i> GitHub</a> |
+<a href="https://linkedin.com/in/sridip-basu"><i class="fab fa-linkedin"></i> LinkedIn</a> |
+<a href="https://kaggle.com/sridipbasu"><i class="fab fa-kaggle"></i> Kaggle</a>
+</p>
+</section>
+
+<section>
+<h2>Education & Organizations</h2>
+<div class="logo-row">
+<img src="https://upload.wikimedia.org/wikipedia/en/4/4f/IIIT_Lucknow_Logo.png">
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Meta_Platforms_Inc._logo.svg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Pytorch_logo.png">
+<img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg">
+</div>
+</section>
+
+<section>
+<h2>About Me</h2>
+<div class="card">
+Passionate AI/ML student focused on machine learning systems and real-world impact. Interested in climate AI, data science, predictive analytics and scalable ML deployment.
+</div>
+</section>
+
+<section>
+<h2>Technical Skills</h2>
+<div class="card">
+Python • SQL • PyTorch • TensorFlow • XGBoost • LightGBM • FastAPI • Docker • Spark • Power BI • NLP • Statistics
+</div>
+</section>
+
+<section>
+<h2>Featured Projects</h2>
+<div class="grid">
+<div class="card">
+<h3>FloodCast</h3>
+<p>Riverine Flood Early Warning System using LSTM + XGBoost residual learning.</p>
+<a href="https://github.com/sridipbasu">View Project →</a>
+</div>
+
+<div class="card">
+<h3>GrowSense</h3>
+<p>Smart agriculture monitoring using IoT sensors and machine learning.</p>
+<a href="https://github.com/sridipbasu">View Project →</a>
+</div>
+</div>
+</section>
+
+<section>
+<h2>Achievements</h2>
+<div class="card">
+🏆 Meta PyTorch OpenEnv Hackathon Finalist<br>
+🏆 AIR 176 IIT JAM Mathematical Statistics<br>
+🏆 Top 13% Kaggle Competition<br>
+🏆 1st Place DataMaze
+</div>
+</section>
+
+<section>
+<h2>Contact</h2>
+<div class="card">
+Email: sridip.zui@gmail.com<br><br>
+GitHub: github.com/sridipbasu<br>
+Kaggle: kaggle.com/sridipbasu
+</div>
+</section>
+
 </body>
 </html>
+```
